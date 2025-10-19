@@ -11,10 +11,16 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-.grid-tile.empty:hover {
-  background-color: #e9ecef;
+.grid-tile.empty.player1:hover {
+  background-color: #ffe5e5;
   transform: scale(1.03);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.15);
+}
+
+.grid-tile.empty.player2:hover {
+  background-color: #f5e6ff;
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(128, 0, 128, 0.15);
 }
 
 .grid-tile h1 {

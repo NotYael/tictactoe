@@ -81,6 +81,7 @@ export default function Grid({
           key={index}
           value={tile}
           onClick={() => handleTileClick(index)}
+          currentPlayer={currentPlayer}
         />
       ))}
     </div>
