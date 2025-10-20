@@ -81,6 +81,7 @@ function App() {
           </button>
         </div>
       </div>
+      <span className="credit">Made by Danyael</span>
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <h2>How to Play Tic Tac Toe</h2>
         <p>

@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -114,4 +115,13 @@
 
 .info-btn:active {
   transform: scale(1.05);
+}
+
+.credit {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-synthesis: auto;
+  color: #6c757d;
+  opacity: 0.8;
 }
