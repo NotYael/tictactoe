@@ -44,11 +44,9 @@ export default function Grid({
     for (const combination of winningCombinations) {
       const [a, b, c] = combination;
       if (board[a] && board[a] === board[b] && board[a] === board[c]) {
-        console.log("winner!");
         return true;
       }
     }
-    console.log("no winner!");
     return false;
   }
 
